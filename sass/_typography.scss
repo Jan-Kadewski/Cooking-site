@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'MasterOfBreak';
+    src: url(../fonts/master_of_break.ttf) format('truetype');
+    
+}
+.tittle-section{
+    font-family:'MasterOfBreak', sans-serif;
+    color:var(--color-dark-red);
+    font-size:5rem;
+    text-shadow: #fff 3px 3px 0px, #9C9C9C 4px 4px 0px;}
+   

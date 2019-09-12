@@ -1,0 +1,201 @@
+///////////////////////start of Navigation section //////////////////////
+
+.navigation{
+display:flex;
+justify-content:center;
+align-items:center;
+padding:1.5rem 2rem;
+background-color:var(--color-white);
+}
+
+.logo{
+    // margin-right:auto;
+    margin-left:20rem;
+}
+.nav-item--container{
+    display:flex;
+    flex:1;
+    justify-content: center
+}
+
+.nav-item{
+    list-style: none;
+    text-transform: uppercase;
+    font-size:1.7rem;
+    letter-spacing: .2rem;
+    
+    &:not(:last-child){
+
+        margin-right:5rem;
+    }
+
+    a{
+        text-decoration: none;
+        color:var(--color-black);
+        font-weight:600;
+    }
+}
+
+///////////////////////end of Navigation section //////////////////////
+
+
+///////////////////////start of header  //////////////////////
+
+.header{
+
+ 
+    width:100%;
+    min-height:86rem;
+    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)), url(../img/backgroundHeader.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+
+
+    &--textbox{
+        
+        text-align:center;
+        margin-top:26rem;
+        letter-spacing:.6rem;
+
+        &__tittle{
+
+        }
+
+        &__welcome{
+            font-family: 'Dosis', sans-serif;
+            margin-top:4rem;
+            text-transform: uppercase;
+            font-size:2.2rem;
+            font-weight:700;
+            letter-spacing:.15rem;
+            color:var(--color-white);
+            position: relative;
+        }
+        
+
+    }
+}
+
+.line-right{
+   position: absolute;
+   color:var(--color-white);
+    padding-left:12rem;
+}
+
+
+///////////////////////start of reservation  //////////////////////
+
+.reservation{
+min-height:40rem;
+padding:10rem 25rem;
+
+    &--cook--container{
+
+        display:flex;
+        align-items: center;
+        height:50rem;
+
+
+        &__img{
+            background-image: url(../img/reservation.png);
+            height:100%;
+            background-repeat: no-repeat;
+            background-size:cover;
+            flex-basis:50%;
+        }
+
+        &--description{
+            text-align:center;
+            flex-basis:50%;
+        }
+
+      
+        &__h2{
+            color:var(--color-btn-orange);
+            font-size:4rem;
+            font-family: 'Dosis', sans-serif;
+             text-transform: uppercase;
+             letter-spacing:.4rem;  
+             margin-bottom:8rem;     
+
+        }
+
+        &__subtext{
+            font-size:1.6rem;
+            background-color:rgba(255,126,102,.1);
+            padding:4rem 5rem 1.5rem 5rem;
+            letter-spacing:.4;
+            color:#9f9a97;
+        }
+    }
+}
+
+.heading--section{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items:center;
+
+    &__h2{
+        color:var(--color-dark-red);
+        text-transform: uppercase;
+        font-weight:700;
+        font-size:2.5rem;
+        font-family: 'Dosis', sans-serif;
+
+    }
+
+
+    &__span{
+        font-family:'MasterOfBreak',sans-serif;
+        font-size:2rem;
+        margin-left:1rem;
+        letter-spacing:.6rem;
+        font-weight:700;
+
+    }
+
+    &__description{
+        margin:0 12rem;
+        text-align:center;
+        margin-top:7rem;        
+        color:var(--color-black);
+        opacity:.7;
+        letter-spacing:.5;
+        font-size:1.6rem;
+        font-family: 'Dosis', sans-serif;
+
+    }
+
+    &__btn{
+        padding:0 .7rem;
+        margin-top:5rem;
+        text-align:center;
+        background-color:var(--color-btn-orange);
+        width:20rem;
+        height:5rem;
+        line-height:5rem;
+        text-transform: uppercase;
+        color:var(--color-white);
+        font-weight:900;
+        font-family: 'Dosis', sans-serif;
+        letter-spacing:.2rem;
+        font-size:1.2rem;
+    }
+
+}
+
+
+.service{
+    min-height:40rem;
+    padding:10rem 25rem;
+
+}
+
+.lemon-cake{
+    background-image: url(../img/serviceBg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height:100rem;
+}
